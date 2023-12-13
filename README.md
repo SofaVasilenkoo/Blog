@@ -4,24 +4,22 @@
 
 ## Установка и запуск
 
-1. Клонирование репозитория
+1. Клонируем репозиторий
 
-   Перейдите в папку, куда будет сохранен проект.
-   
-   Клонируем репозиторий:   `git clone https://github.com/Peca2003/Blogs.git`
+   `git clone https://github.com/SofaVasilenkoo/Blog.git`
 
 2. Создание виртуального окружения
 
-   Открываем проект в PyCharm.
+   `python3 -m venv venv`
 
-   Создаем виртуальное окружение:   `python3 -m venv venv`
+   Активируем виртуальное сокружение на Windows:   `venv/Scripts/activate`
 
-   Активизируем виртуальную среду:   `source venv/bin/activate`
+   На MacOS и Linux: `source venv/bin/activate`
    
-3. Установка зависимостей
+3. Установим зависимости
 
-   Установим зависимости:   `pip install -r requirements.txt`
+   `pip install -r requirements.txt`
    
-4. Запуск сервера
+4. Запустим сервер
 
-   Запустим сервер:   `python manage.py runserver`
+   `python manage.py runserver`
